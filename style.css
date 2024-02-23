@@ -1,11 +1,10 @@
 html {
   font-size: 10px; 
- 
   background-size: cover;
-
   background-image: url('background.jpg');
   background-position: center center;
 }
+
 body,
 html {
   margin: 0;
@@ -14,7 +13,6 @@ html {
 }
 
 .title {
-  
   position:absolute;
   top:25%;
   left:50%;
@@ -24,7 +22,6 @@ html {
   color: white;
   text-shadow: 0 0 .5rem black;
 }
-
 
 .keys {
   display: flex;
@@ -49,15 +46,12 @@ html {
   text-shadow: 0 0 .5rem black;
 }
 
-
-.playing {
-  
+.playing {  
   transform: scale(2.5);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
  
 }
-
 
 kbd {
   display: block;
